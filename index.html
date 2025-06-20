@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QC Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>QC Finder ✨</h1>
+        <p>Wklej link do produktu (np. z Pandabuy), aby znaleźć zdjęcia QC.</p>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="url" id="productLink" placeholder="https://www.pandabuy.com/product?url=...">
+            <button id="searchButton">Szukaj</button>
+        </div>
+
+        <div id="loader" class="loader" style="display: none;"></div>
+
+        <div id="resultsContainer" class="results-grid">
+            <!-- Tutaj JavaScript wstawi znalezione zdjęcia -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

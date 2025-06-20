@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const loader = document.getElementById('loader');
 
     // Adres naszego serwera w Pythonie
-    const API_URL = 'http://127.0.0.1:5000/find_qc';
+    const API_URL = 'https://qc-finder.onrender.com/find_qc'; // <<< TWOJA NOWA LINIA
 
     const performSearch = async () => {
         const productUrl = productLinkInput.value.trim();
